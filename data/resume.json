@@ -1,0 +1,38 @@
+{
+    "contact": {
+        "email": "yu.wilson.b@gmail.com",
+        "location": "Washington D.C. Metro Area",
+        "linkedin": "linkedin.com/in/yu-wilson"
+    },
+    "summary": "Senior software engineer with 3+ years of experience in full stack development working on high-impact systems in the financial industry. I am skilled in developing both backend (Python, Java, databases) & frontend (React, Javascript) web applications and engineering the infrastructure/cloud (AWS) that powers them. I’m a creator at heart, with experience turning ideas into robust solutions and collaborating with product teams and end users to continuously improve the customer experience.",
+    "experience": [
+        {
+            "position": "Senior Software Engineer",
+            "company": "Capital One",
+            "division": "Fraud Preventiion",
+            "time": "Jan 2022 - Present",
+            "details": [
+                "Contributed to the design, implementation, and testing of the bank’s fraud prevention systems that are preventing $300MM of fraud annually; led the development of a prioritization engine to optimally assign the most critical and time-sensitive fraud cases.",
+                "Prevented millions of dollars in losses and costs by diagnosing high-risk performance issues with the bank’s fraud prevention systems and leading the initiative to resolve them. Reduced peak DB CPU utilization from 80% to 5% and worst-case processing times from days to hours (20x faster).",
+                "Improved developer experience & efficiency across several teams by continually identifying areas to improve and fixing them, building tools to streamline tasks, and establishing coding standards as needed."
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Backend Development",
+            "yoe": "4+",
+            "languages": [
+                "Python",
+                "Java"
+            ],
+            "subskills": [
+                "Designing and Buildiing APIs",
+                "Scripting & Automation",
+                "Testing - Unit, Integration, Performance",
+                "Databases - SQL, noSQL",
+                "Data Processing and basic Machine Learning"
+            ]
+        }
+    ]
+}
