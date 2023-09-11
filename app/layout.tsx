@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import { Kanit } from 'next/font/google'
 import Sidebar from './sidebar'
 
-const fontGaramond = Kanit({ subsets: ['latin'], weight: '300' })
+const fontGaramond = Kanit({ subsets: ['latin'], weight: '200' })
 const backgroundColor = 'bg-charcoal'
 const textColor = 'text-sand'
 
@@ -25,7 +25,7 @@ export default function RootLayout({
         <Sidebar />
 
         {/* div to offset the sidebar */}
-        <div className="p-16 sm:ml-96">
+        <div className="px-32 py-16 sm:ml-96">
           {children}
         </div>
       </body>
