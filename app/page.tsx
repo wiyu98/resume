@@ -4,15 +4,20 @@ import { ResumeData } from './models/resumeData';
 async function Summary() {
   const data: ResumeData = await readResumeData();
 
-  return <p>
-    {data.summary}
-  </p>
+  return (<div className="space-y-4">
+    {data.summary.map(
+      (line, index) =>
+        <p key={'summary' + index} className="space-y-4">
+          {line}
+        </p>
+    )}
+  </div>
+  )
 }
 
 export default function Home() {
   return (
     <main>
-      <h1>Wilson Yu</h1>
       <Summary />
     </main>
   )

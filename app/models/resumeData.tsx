@@ -1,6 +1,6 @@
 export interface ResumeData {
     contact: Contact;
-    summary: string;
+    summary: string[];
 }
 
 export interface Contact {
