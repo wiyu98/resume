@@ -1,10 +1,11 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { EB_Garamond } from 'next/font/google'
+import { Kanit } from 'next/font/google'
+import Sidebar from './sidebar'
 
-const fontGaramond = EB_Garamond({ subsets: ['latin'], weight: '400' })
-const backgroundColor = 'bg-sand'
-const textColor = 'text-charcoal'
+const fontGaramond = Kanit({ subsets: ['latin'], weight: '200' })
+const backgroundColor = 'bg-charcoal'
+const textColor = 'text-sand'
 
 export const metadata: Metadata = {
   title: 'Wilson Yu | Résumé',
@@ -18,7 +19,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={fontGaramond.className + ' ' + backgroundColor + ' ' + textColor}>{children}</body>
+      <body className={
+        fontGaramond.className + ' ' + backgroundColor + ' ' + textColor
+      }>
+        <Sidebar />
+
+        {/* div to offset the sidebar */}
+        <div className="px-32 py-16 sm:ml-96">
+          {children}
+        </div>
+      </body>
     </html>
   )
 }

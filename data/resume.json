@@ -4,7 +4,14 @@
         "location": "Washington D.C. Metro Area",
         "linkedin": "linkedin.com/in/yu-wilson"
     },
-    "summary": "Senior software engineer with 3+ years of experience in full stack development working on high-impact systems in the financial industry. I am skilled in developing both backend (Python, Java, databases) & frontend (React, Javascript) web applications and engineering the infrastructure/cloud (AWS) that powers them. I’m a creator at heart, with experience turning ideas into robust solutions and collaborating with product teams and end users to continuously improve the customer experience.",
+    "summary": [
+        "Hi all! My name is Wilson.",
+        "I'm a senior software engineer with over 3 years of experience in full stack development. I've been working on high-impact systems in the financial industry, having delivered millions of dollars in value by leading the development of critical features, optimizing systems to reduce costs and risks, and improving workflows to save thousands of hours of associate time.",
+        "A creator at heart, I enjoy the process of ideating new features and improvements and turning them into robust solutions. Always looking to continuously improve the customer's experience, I'm no stranger to collaborating with product managers, data teams, and end users to identify requirements and areas of opportunity.",
+        "I am skilled in developing both backend (Python, Java, databases) & frontend (React) web applications and engineering the infrastructure/cloud (AWS) that powers them.",
+        "In 2019, I graduated from Carnegie Mellon University with a major in Information Systems and minors in Statistics and Human-Computer Interaction. To this day, data and user experience shape the way that I approach software engineering; I strive to design & build intelligent, customer-focused products.",
+        "If you think I'd be a good fit for any opportunities, please feel free to contact me!"
+    ],
     "experience": [
         {
             "position": "Senior Software Engineer",
